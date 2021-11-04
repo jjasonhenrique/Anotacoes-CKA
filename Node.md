@@ -1,6 +1,6 @@
 # Node
 
-kubecyt get nodes
+kubectl get nodes
 
 kubectl get nodes —show-labels
 
