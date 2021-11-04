@@ -13,3 +13,12 @@ i ⇒ insere linha
 63dd ⇒ apaga 63 linhas
 
 dd ⇒ apaga uma linha
+
+# Vídeos LinuxTips sobre Vim
+
+https://www.youtube.com/watch?v=XXRZ0acXHU0&t
+
+https://www.youtube.com/watch?v=_qShvkx8jK0
+
+https://www.youtube.com/watch?v=_hJkHTmedEk
+
