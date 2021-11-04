@@ -24,7 +24,7 @@ systemctl status kubelet
 
 kubectl get nodes
 
-kubectl cordon kubernetes01
+kubectl uncordon kubernetes01
 
 ## Cluster Worker
 
@@ -48,4 +48,4 @@ systemctl status kubelet
 
 kubectl get nodes
 
-kubectl cordon kubernetes01
+kubectl uncordon kubernetes01
