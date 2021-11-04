@@ -26,4 +26,6 @@ targertPort = containerPort
 
 kubectl cluster-info
 
-openssl x509 -noout -in pki/file ou kubeadm certs check-expiration
+openssl x509 -noout -text -in pki/file ou kubeadm certs check-expiration
+
+kubeadm certs renew all
