@@ -17,7 +17,7 @@ kubctl get pv
         type: local
     spec:
       capacity:
-        storage: 10Gi
+        storage: 100Mi
       accessModes:
         - ReadWriteOnce
       hostPath:
@@ -38,5 +38,5 @@ kubctl get pv
         - ReadWriteOnce
       resources:
         requests:
-          storage: 3Gi
+          storage: 100Mi
     ```
