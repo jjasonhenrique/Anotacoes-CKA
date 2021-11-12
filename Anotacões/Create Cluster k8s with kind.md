@@ -1,8 +1,8 @@
-# Criar Cluster kubernetes com kind
+- Criar Cluster kubernetes com kind
 
 kind create cluster —name cluster-jason —config arquivo.yaml
 
-# Criar arquivo de configuração 
+- Criar arquivo de configuração 
 ```
 cat << EOF > arquivo.yaml
 kind: Cluster
