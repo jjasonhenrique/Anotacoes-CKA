@@ -25,3 +25,8 @@ kubectl top nodes
 ```
 kubectl describe node kubernetes01
 ```
+
+- Setar determinado taint em algum node
+``` 
+kubectl taint node node01 chave=valor:NoExecute
+```
