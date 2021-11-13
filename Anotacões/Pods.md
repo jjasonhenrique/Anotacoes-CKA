@@ -24,7 +24,7 @@ kubectl edit pods teste
 
 kubectl logs -f teste-5f58d84987-cltb9
 
-- Example Manifesto Pods
+- Exemplo de Manifesto do tipo Pod
     
     ```bash
     kubectl example pods       
