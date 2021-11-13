@@ -14,3 +14,8 @@ kubectl config current-context
 ```
 kubectl config set-context namedocontexto
 ```
+
+- Verifica configuração  do kubeconfig do usuário
+```
+kubectl config view 
+```
