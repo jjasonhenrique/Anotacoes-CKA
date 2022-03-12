@@ -1,4 +1,4 @@
-# JSONPath
+- JSONPath
 
 /n ⇒ new line
 
@@ -8,7 +8,7 @@
 
 —sort-by=<JSON PATH>
 
-# Course JSONPath KodeKloud
+- Course JSONPath KodeKloud
   
 https://kodekloud.com/courses/json-path-quiz/
   

@@ -1,4 +1,4 @@
-# Dicas Vim
+- Dicas Vim
 
 y7y ⇒ Faz a cópia de 7 linhas
 
@@ -14,7 +14,7 @@ i ⇒ insere linha
 
 dd ⇒ apaga uma linha
 
-# Vídeos LinuxTips sobre Vim
+- Vídeos LinuxTips sobre Vim
 
 https://www.youtube.com/watch?v=XXRZ0acXHU0&t
 
@@ -22,3 +22,6 @@ https://www.youtube.com/watch?v=_qShvkx8jK0
 
 https://www.youtube.com/watch?v=_hJkHTmedEk
 
+- Links Importantes
+
+https://devhints.io/vim

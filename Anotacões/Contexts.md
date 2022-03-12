@@ -1,7 +1,21 @@
-# Contexts
+# Contextos
 
+- Verificar contextos
+```
 kubectl config get-contexts
+```
 
-kubectl config set-context env
+- Verificar contexto atual
+```
+kubectl config current-context
+```
 
-kubectl config —kubeconfig use-context env
+- Setar contexto
+```
+kubectl config set-context namedocontexto
+```
+
+- Verifica configuração  do kubeconfig do usuário
+```
+kubectl config view 
+```

@@ -1,24 +1,53 @@
-# Deploy
-
+- Verificar deploy no namespace default
+```
 kubectl get deploy
+```
 
+
+- Verificat deploy em todos os namespaces
+```
 kubectl get deploy -A
+```
 
+
+- Verificar deploy em algum namespace especifico
+```
 kubectl get deploy -n namespace
+```
 
+
+- Verificar informações  de um deploy
+```
 kubectl describe deploy teste
+```
 
+
+- Criar arquivo de manifesto do tipo deploy
+```
 kubectl create deploy teste --image=nginx:1.17 --replicas=3 --dry-run=client -o yaml > deploy.yaml
+```
 
+
+- Aplicar arquivo de configuração 
+```
 kubectl apply -f deploy.yaml
+```
 
+
+- Verificar replicaset no namespace default
+```
 kubectl get replicaset
+```
 
+
+- Editar deploy teste no namespace default
+```
 kubectl edit deploy teste
+```
 
-- Example Manisfesto Deploy
-    
-    ```bash
+
+- Exemplo de Manisfesto Deploy   
+    ```
     kubectl example deploy
     ---
     apiVersion: apps/v1
@@ -44,9 +73,8 @@ kubectl edit deploy teste
                 - containerPort: 80
     ```
     
-- Example Manifesto DaemonSet
-    
-    ```bash
+- Exemplo de Manifesto DaemonSet
+    ```
     kubectl example daemonset
     ---
     apiVersion: apps/v1
@@ -95,7 +123,14 @@ kubectl edit deploy teste
                 path: /var/lib/docker/containers
     ```
     
-
+    
+- Aumentar número de replicas de um deploy
+```
 kubectl scale deploy nginx --replicas=5
+```
 
-kubectl set image deployments.apps/nginx-teste nginx=nginx:1.21.1 --record
+
+- Setar imagem de um deploy
+```
+kubectl set image deployments.apps/nginx-teste namecontainer=nginx:1.21.1 --record
+```

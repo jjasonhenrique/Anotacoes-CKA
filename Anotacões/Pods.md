@@ -2,6 +2,8 @@
 
 kubectl get pods
 
+
+
 kubectl get pods -A 
 
 kubectl get pods -n namespace
@@ -24,7 +26,7 @@ kubectl edit pods teste
 
 kubectl logs -f teste-5f58d84987-cltb9
 
-- Example Manifesto Pods
+- Exemplo de Manifesto do tipo Pod
     
     ```bash
     kubectl example pods       
@@ -69,3 +71,5 @@ kubectl logs -f teste-5f58d84987-cltb9
     
 
 kubectl run teste —image=nginx:1.21 —command sleep 4800 —dry-run=client > pod.yaml
+
+Static Pods ficam em /etc/kubernetes/manifests (use ps aux | grep kubelet)

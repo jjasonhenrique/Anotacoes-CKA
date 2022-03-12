@@ -1,6 +1,6 @@
 # Ingress
 
-- Example Manifesto Ingress
+- Exemplo Manifesto Ingress
     
     ```bash
     kubectl example ingress
@@ -25,7 +25,12 @@
                   servicePort: 80
     ```
     
-
+- Verificar ingress no namespace default
+```
 kubectl get ingress
+```
 
+- Verificar informações de ingress em determinado namespace
+```
 kubectl describe ingress ingress -n namespace
+```

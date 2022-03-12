@@ -1,9 +1,0 @@
-# DNS
-
-DNS Kubernetes = CoreDNS
-
-Pod = IP
-
-Service = Name
-
-pod.namespace.svc.default.local
