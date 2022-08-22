@@ -1,0 +1,3 @@
+- https://devopscube.com/cks-exam-guide-tips/
+- https://faun.pub/how-to-pass-certified-kubernetes-security-specialist-cks-5dcd280da1f3
+- https://www.freecodecamp.org/news/how-to-pass-the-certified-kubernetes-security-specialist-exam/
