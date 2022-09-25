@@ -5,24 +5,24 @@
     ```bash
     kubectl example ingress
     ---
-    apiVersion: networking.k8s.io/v1beta1
+    apiVersion: networking.k8s.io/v1
     kind: Ingress
     metadata:
-      name: name-virtual-host-ingress
+      name: world
+      annotations:
+        nginx.ingress.kubernetes.io/rewrite-target: /
     spec:
+      ingressClassName: nginx-example
       rules:
-        - host: foo.bar.com
-          http:
-            paths:
-              - backend:
-                  serviceName: service1
-                  servicePort: 80
-        - host: bar.foo.com
-          http:
-            paths:
-              - backend:
-                  serviceName: service2
-                  servicePort: 80
+      - http:
+          paths:
+          - path: /Europe
+            pathType: Prefix
+            backend:
+              service:
+                name: europe
+                port:
+                  number: 80
     ```
     
 - Verificar ingress no namespace default
