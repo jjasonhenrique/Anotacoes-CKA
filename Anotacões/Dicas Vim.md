@@ -14,6 +14,8 @@ i ⇒ insere linha
 
 dd ⇒ apaga uma linha
 
+:g/^$/:delete ⇒ apaga linhas em branco
+
 - Vídeos LinuxTips sobre Vim
 
 https://www.youtube.com/watch?v=XXRZ0acXHU0&t
